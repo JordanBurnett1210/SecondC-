@@ -12,6 +12,7 @@ using namespace std;
 SillyAppController :: SillyAppController()
 {
 	this->count = 99;
+	this->favAn = "Panda";
 }
 
 void SillyAppController :: setCount(int count)
@@ -33,4 +34,8 @@ void SillyAppController :: start()
 	cin >> tempCount;
 	setCount(tempCount);
 	cout << getCount() << " is the updated count" << endl;
+	cout << "Do you have a favorite animal?" << endl;
+	string favAn;
+	cin >> favAn;
+	cout << "I like " get(favAn)
 }

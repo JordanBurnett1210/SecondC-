@@ -11,6 +11,7 @@ int main()
 {
 	SillyAppController * baseController = new SillyAppController();
 	baseController->start();
+	(*baseController).start();
 	return 0;
 }
 

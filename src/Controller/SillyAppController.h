@@ -12,6 +12,7 @@ class SillyAppController
 {
 private:
 	int count;
+	String favAn;
 public:
 	SillyAppController();
 	void setCount(int);
